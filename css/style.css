@@ -701,12 +701,14 @@ template {
 }
 
 .booking__start {
+  font-family: Nunito;
   font-weight: normal;
   font-size: 10px;
   line-height: 14px;
 }
 
 .booking__pricetag {
+  font-family: Nunito;
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -714,6 +716,7 @@ template {
 }
 
 .booking__per-room {
+  font-family: Nunito;
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
@@ -724,6 +727,7 @@ template {
 }
 
 .booking__text {
+  font-family: Nunito;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -755,6 +759,7 @@ template {
 }
 
 .booking__heading, .booking__num {
+  font-family: Nunito;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -787,6 +792,7 @@ template {
   border: 0;
   color: #ffffff;
   cursor: pointer;
+  font-family: Nunito;
   font-weight: 600;
   font-size: 14px;
   line-height: 19px;
