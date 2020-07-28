@@ -1206,19 +1206,19 @@ template {
     display: none;
   }
   .reviews-slider__button {
-    top: 45px;
+    top: 32px;
   }
   .reviews-slider__button--prev {
     left: 50%;
+    margin-left: -70px;
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
-    margin-left: -70px;
   }
   .reviews-slider__button--next {
     right: 50%;
+    margin-right: -70px;
     -webkit-transform: translate(50%, 0);
             transform: translate(50%, 0);
-    margin-right: 70px;
   }
 }
 
