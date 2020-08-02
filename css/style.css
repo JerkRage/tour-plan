@@ -1859,5 +1859,8 @@ template {
   .footer__information__img {
     margin: 10px 0 20px 0;
   }
+  .search__input {
+    width: 245px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
