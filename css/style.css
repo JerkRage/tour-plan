@@ -1419,6 +1419,20 @@ template {
   text-transform: uppercase;
 }
 
+.modal__inter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .modal__input {
   width: 100%;
   margin-bottom: 15px;
@@ -1426,10 +1440,7 @@ template {
 
 .modal__message {
   width: 100%;
-}
-
-.modal__button {
-  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .modal__info {
@@ -1902,6 +1913,21 @@ template {
   }
   .search__input {
     width: 245px;
+  }
+  .modal__inter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .modal__info {
+    margin-bottom: 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */
