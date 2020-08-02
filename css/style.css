@@ -1893,6 +1893,9 @@ template {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
+  .footer__information__link {
+    margin-right: 10px;
+  }
   .footer__information__img {
     margin: 10px 0 20px 0;
   }
