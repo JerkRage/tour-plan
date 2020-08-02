@@ -261,10 +261,16 @@
     &__logo
       grid-row: 1
       grid-column: 1
+    &__title
+      margin-bottom: 20px
+      &--inline
+        flex-basis: 100%
     &__social
       &-network
         grid-row: 2
         grid-column: 1
+        display: flex
+        flex-wrap: wrap
     &__additional
       grid-row: 3
       grid-column: 1
@@ -287,6 +293,12 @@
         flex-basis: 100%
       &__img
         margin: 10px 0 20px 0
+    &__inter
+      display: flex
+      align-items: flex-start
+      flex-direction: column-reverse
+    &__info
+      margin-bottom: 15px
   .search
     &__input
       width: 245px
