@@ -45,3 +45,11 @@ function closeModal(event) {
   modalOverlay.removeClass('modal__overlay--visible');
   modalDialog.removeClass('modal__dialog--visible');
 };
+// Закрытие по клавише Esc.
+$(document).keydown(function (e) {
+  if (e.keyCode === 27) {
+    e.stopPropagation();
+    $('.modal__overlay').removeClass('modal__overlay--visible');
+    $('.modal__dialog').removeClass('modal__dialog--visible');
+  }
+});
