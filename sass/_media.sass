@@ -309,10 +309,17 @@
       display: flex
       align-items: flex-start
       flex-direction: column-reverse
+    &__dialog
+      min-width: 310px
+      padding: 45px 25px
     &__info
+      margin-left: 0
       margin-bottom: 15px
   .booking
     &_mb15
       margin-bottom: 15px
-
-
+@media ( max-height: 320px)
+  .modal
+    &__dialog
+      max-height: 300px
+      overflow-y: auto

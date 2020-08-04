@@ -1929,11 +1929,23 @@ template {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+  .modal__dialog {
+    min-width: 310px;
+    padding: 45px 25px;
+  }
   .modal__info {
+    margin-left: 0;
     margin-bottom: 15px;
   }
   .booking_mb15 {
     margin-bottom: 15px;
+  }
+}
+
+@media (max-height: 320px) {
+  .modal__dialog {
+    max-height: 300px;
+    overflow-y: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
