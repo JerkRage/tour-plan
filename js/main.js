@@ -72,7 +72,7 @@ $('.form').each(function () {
 });
 //Маска для телефона
 $(document).ready(function () {
-  $("#phone").mask("+7 (999) 999-99-99");
+  $(".phone").mask("+7 (999) 999-99-99");
 });
 //Анимация
 AOS.init();
