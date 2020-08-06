@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;600;800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://api-maps.yandex.ru/2.1/?apikey=a2ba7013-f125-49ef-a3cd-a50376cd23c0&lang=ru_RU"
-    type="text/javascript">
-  </script>
   <script src="https://www.rudebox.org.ua/js/jquery-3.3.1.js"></script>
   <title>Best Tuor Plan - Hotel Booking</title>
 </head>
@@ -60,25 +60,25 @@
             <!-- /.search -->
           </li>
 
-          <li class="navbar-menu__item">
+          <li class="navbar-menu__item" data-aos="fade-down" data-aos-delay="100">
             <a href="#" class="navbar-menu__link">All Deals</a>
           </li>
-          <li class="navbar-menu__item">
+          <li class="navbar-menu__item" data-aos="fade-down" data-aos-delay="200">
             <a href="#" class="navbar-menu__link">Hotels</a>
           </li>
-          <li class="navbar-menu__item">
+          <li class="navbar-menu__item" data-aos="fade-down" data-aos-delay="300">
             <a href="#" class="navbar-menu__link">Activities</a>
           </li>
-          <li class="navbar-menu__item">
+          <li class="navbar-menu__item" data-aos="fade-down" data-aos-delay="400">
             <a href="#" class="navbar-menu__link">Hotel Day Packages</a>
           </li>
-          <li class="navbar-menu__item">
+          <li class="navbar-menu__item" data-aos="fade-down" data-aos-delay="300">
             <a href="#" class="navbar-menu__link">Restaurants</a>
           </li>
-          <li class="navbar-menu__item">
+          <li class="navbar-menu__item" data-aos="fade-down" data-aos-delay="200">
             <a href="#" class="navbar-menu__link">Events</a>
           </li>
-          <li class="navbar-menu__item">
+          <li class="navbar-menu__item" data-aos="fade-down" data-aos-delay="100">
             <a href="#" class="navbar-menu__link">Rodrigues</a>
           </li>
         </ul>
@@ -184,7 +184,7 @@
           </div>
           <!-- /.booking -->
           <div class="map">
-            <div id="map-hotel" style="width: 100%; height: 100%"></div>
+            <img class="map__img" src="img/map.jpg" alt="map">
           </div>
           <!-- /.map -->
         </div>
@@ -197,11 +197,13 @@
   <!-- /.hotel -->
   <section class="newsletter parallax">
     <div class="newsletter-wrapper">
-      <h2 class="newsletter-title newsletter__title">
+      <h2 class="newsletter-title newsletter__title" data-aos="flip-right" data-aos-delay="100"
+        data-aos-duration="1500">
         subscribe to our
         <span class="newsletter-title__strong">Newsletter</span>
       </h2>
-      <form action="send.php" method="POST" class="subscribe form">
+      <form action="send.php" method="POST" class="subscribe form" data-aos="flip-left" data-aos-delay="400"
+        data-aos-duration="1500">
         <div class="subscribe__input">
           <input type="email" class="subscribe__input" placeholder="Your email address*" name="email" required>
         </div>
@@ -311,25 +313,25 @@
     <div class="container">
       <h2 class="activities__title">Other Activities</h2>
       <div class="activities-cards">
-        <div class="card activities__card">
+        <div class="card activities__card" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
           <img src="img/activity-1.jpg" alt="The curious corner of chamarel" class="card__img">
           <h3 class=" card__title">The curious corner of chamarel</h3>
           <button class="card__button">Book Now</button>
         </div>
         <!--/.card-->
-        <div class="card activities__card">
+        <div class="card activities__card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
           <img src="img/activity-2.jpg" alt="Gymkhana club golf course" class="card__img">
           <h3 class="card__title">Gymkhana club golf course</h3>
           <button class="card__button">Book Now</button>
         </div>
         <!--/.card-->
-        <div class="card activities__card">
+        <div class="card activities__card" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
           <img src="img/activity-3.jpg" alt="Tamarind falls hiking trip - full day" class="card__img">
           <h3 class="card__title">Tamarind falls hiking trip - full day</h3>
           <button class="card__button">Book Now</button>
         </div>
         <!--/.card-->
-        <div class="card activities__card">
+        <div class="card activities__card" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
           <img src="img/activity-4.jpg" alt="The blue marine discovery quest" class="card__img">
           <h3 class="card__title">The blue marine discovery quest</h3>
           <button class="card__button">Book Now</button>
@@ -525,8 +527,8 @@
   </div>
   <!-- /.modal -->
   <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/map.js"></script>
   <script src="js/iquery-3.5.1.min.js"></script>
+  <script src="js/aos.js"></script>
   <script src="js/jquery.validate.min.js"></script>
   <script src="js/jquery.maskedinput.min.js"></script>
   <script src="js/main.js"></script>

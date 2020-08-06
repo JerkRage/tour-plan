@@ -74,3 +74,10 @@ $('.form').each(function () {
 $(document).ready(function () {
   $("#phone").mask("+7 (999) 999-99-99");
 });
+//Анимация
+AOS.init();
+//google карта
+const map = document.querySelector('.map')
+map.addEventListener('click', () => {
+  map.innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3952.0474214391784!2d98.2942563!3d7.8901079!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30503b7bfcd9f903%3A0xf7065fac1e3d7c48!2sDoubleTree%20by%20Hilton%20Phuket%20Banthai%20Resort!5e0!3m2!1sru!2sru!4v1596687171109!5m2!1sru!2sru" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>'
+})
